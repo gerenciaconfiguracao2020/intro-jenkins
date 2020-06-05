@@ -38,6 +38,11 @@ public class Pessoa {
     public void setEmail(String email) {
         this.email = email;
     }
+
+    @Override
+    public String toString() {
+        return "Pessoa{" + "nome=" + nome + ", cpf=" + cpf + ", email=" + email + '}';
+    }
     
     
     
